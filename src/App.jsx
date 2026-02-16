@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div class="flex flex-col relative bg-gray-200">
-      <Header src="../public/Amazon.png"/>
+      <Header src="/Amazon.png"/>
       <div class="relative flex flex-col box-border mx-5 my-2 sm:mx-20 sm:my-7 grow bg-white min-h-[calc(90vh-16px)] sm:min-h-[calc(90vh-56px)]">
         <Routes>
           <Route index element={<Content allData={allData}/>}/>
