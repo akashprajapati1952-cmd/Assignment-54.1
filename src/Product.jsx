@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Product(data) {
   return(
@@ -14,7 +15,9 @@ function Product(data) {
         <img src="/Star.png"></img>
       </div>
       
-      <p class="text-xs font-bold">{data.rate}</p>
+      <p class="text-xs font-bold">₹{data.price}</p>
+      <Link className="text-xs bg-blue-700 p-1 border rounded-md" to="/product/1">Show detail</Link>
+      
     </div>
   );
 }
