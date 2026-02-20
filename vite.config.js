@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite' // Ye line honi chahiye
 
 export default defineConfig({
+  base:'akashprajapati1952-cmd',
   plugins: [
     react(),
     tailwindcss(), // Ye function yahan hona chahiye
